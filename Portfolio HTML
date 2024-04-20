@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Aditi's PortFolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+    <div class="container">
+      <a class="navbar-brand" href="#">Aditi's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Hi, Aditi this side!</h2>
+          <p class="hero_desc">I am an upcoming Software Developer!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container mt-4 pt-4">
+      <h1 class="text-center">About Me</h1>
+      <div class="row mt-4">
+        <div class="col-lg-4">
+          <img src="5ba610be-35d3-4013-bae3-671e5810b682.JPG" class="imageAboutPage" alt="Profile Picture">
+        </div>
+
+        <div class="col-lg-8">
+          <p> I am a dedicated and curious student currently pursuing Bachelor of Computer Applications (BCA) at United
+            University (UU).
+          </p>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <ul>
+                <li>Name: <b>Aditi Dwivedi</b> </li>
+                <li>Age: <b>19</b></li>
+                <li>Occupation: <b>Aspiring Web Developer</b></li>
+              </ul>
+            </div>
+          </div>
+          <p> With a strong passion for technology and a commitment to academic excellence, I am actively engaged in
+            honing my programming and problem-solving skills to prepare for a successful career in the dynamic field
+            of computer science. I have learnt the fundamentals and advanced concepts of programming, data structures,
+            algorithms, databases, and web technologies during my graduation. I am passionate about web development
+            and eager to apply my skills and knowledge to solve real-world problems and create innovative solutions. I
+            am looking for opportunities to grow and learn as a web developer and to work with a diverse and talented
+            team. I am a passionate learner and I love to learn new things. I am a self-motivated and meticulous
+            person. I am a team player and I am always willing to help others. Below is my Curriculum Vitae / Resume for
+            the recruiters:
+          <p><a href="NewCV.pdf">Download Now!</a></p>
+          </p>
+        </div>
+      </div>
+  </section>
+  <br>
+  <section id="services">
+    <div class="container">
+      <h1 class="text-center">Education, Experience And Services</h1>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="fas servicesIcon fa-graduation-cap"></i>
+              <h4 class="card-title mt-3">Education</h4>
+              <p class="card-text mt-3">I am currently pursuing a Bachelor of Computer Applications, a comprehensive
+                three-year
+                program that equipped me with strong technical knowledge and problem-solving skills in various
+                computer science concepts, fostering innovation and teamwork.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class='fas servicesIcon fa-briefcase'></i>
+              <h4 class="card-title mt-3">Experience</h4>
+              <p class="card-text mt-3">During my internship at Dabotics India Pvt. Ltd. from March to January 2024, I
+                successfully
+                developed a product landing page, a music application, a quiz application, and an e-learning website,
+                contributing to diverse web-based projects with creativity and proficiency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class='far servicesIcon fa-check-circle'></i>
+              <h4 class="card-title mt-3">Front-End Development</h4>
+              <p class="card-text mt-3">As a front-end developer,I focus on creating the user interface and user
+                experience of websites or applications. I work with HTML, CSS, and JavaScript to ensure a visually
+                appealing and responsive design for optimal user interaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <section id="contact">
+        <h1 class="text-center">Contact Me</h1>
+        <br>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="social-icons mt-4">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+    <br>
+</body>
+
+</html>
