@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodPanda - Delicious Food Delivered to Your Doorstep</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#download">Download our App</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to FoodPanda &#128060; </h1>
+    <p>Delicious Food Delivered to Your Doorstep</p>
+  </header>
+  <section id="features">
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>Welcome to FoodPanda - your go-to platform for ordering delicious food from a variety of restaurants. We strive
+        to make your dining experience convenient and enjoyable.</p>
+    </section>
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <ul>
+        <li>Choose your favorite restaurant and select your desired dishes.</li>
+        <li>Place your order and make secure payments online.</li>
+        <li>Sit back and relax while we prepare your food and deliver it to your doorstep.</li>
+      </ul>
+    </section>
+    <h2>Our Features</h2>
+    <ul>
+      <li>Wide variety of cuisines</li>
+      <li>Fast delivery</li>
+      <li>Easy online ordering</li>
+      <li>Secure payment options</li>
+    </ul>
+  </section>
+  <section id="food-images">
+    <h2>Discover our delicious delights!</h2>
+    <div class="food-image">
+      <img src="image1.jpg" alt="Delicious Burger">
+      <p>Enjoy our mouth-watering dishes!</p>
+    </div>
+    <div class="food-image">
+      <img src="image2.jpg" alt="Delicious Burger">
+      <p>Eat our breathtaking pizzas!</p>
+    </div>
+    <div class="food-image">
+      <img src="image3.png" alt="Yummy Pasta">
+      <p>Savor the flavors of our Indian cuisine!</p>
+    </div>
+  </section>
+  <section id="testimonials">
+    <h2>Customer Testimonials</h2>
+    <div class="testimonial">
+      <p>"I love the wide range of food options available on FoodPanda!"</p>
+      <p>- Jane Doe</p>
+    </div>
+    <div class="testimonial">
+      <p>"Quick delivery and great service. Highly recommended!"</p>
+      <p>- John Smith</p>
+    </div>
+  </section>
+  <section id="download">
+    <h2>Download Our App</h2>
+    <p>Get FoodPanda on your mobile device for easy ordering and delivery tracking.</p>
+    <button onclick="redirectAppStore()">Download on the App Store</button>
+    <button onclick="redirectPlayStore()">Get it on Google Play</button>
+  </section>
+  <footer>
+    <p>&copy; 2024 FoodPanda. All rights reserved.</p>
+    <p>Connect with us anytime on our social media platforms!</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
