@@ -1,0 +1,9 @@
+function redirectAppStore() {
+  // Redirect to the App Store link
+  window.location.href = "https://example.com/app-store-link";
+}
+
+function redirectPlayStore() {
+  // Redirect to the Google Play Store link
+  window.location.href = "https://example.com/play-store-link";
+}
