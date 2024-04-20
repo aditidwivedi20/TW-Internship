@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+#about-us {
+  background-color: #ffd700;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: blue;
+}
+
+#food-images img[src*="image3.png"] {
+  max-width: 300px;
+}
+
+nav {
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+#food-images img[src*="image2.jpg"] {
+  max-width: 250px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#features {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+#about-us {
+  background-color: #e6f7ff;
+  border: 1px solid #99ccff;
+  padding: 20px;
+}
+
+#how-it-works {
+  background-color: #f2ecc8;
+  border: 1px solid #e6dcbf;
+  padding: 20px;
+}
+
+#food-images {
+  background-color: #d9ead3;
+  border: 1px solid #b6d7a8;
+  padding: 20px;
+}
+
+#testimonials {
+  background-color: #fde5e5;
+  border: 1px solid #f0b2b2;
+  padding: 20px;
+}
+
+#download {
+  background-color: #e2e3f4;
+  border: 1px solid #c3c4e3;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
